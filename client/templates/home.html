@@ -1,5 +1,6 @@
-<input type="button" value="Add" ng-click="add()" class="btn btn-info">
-<table border="1" style="width:100%;"class="table table-bordered ">
+<h1>Hot Girls Techkids</h1>
+<lx page="1" size="5"></lx>
+<!-- <table border="1" style="width:100%;">
   <tr>
     <th>Name</th>
     <th>Age</th>
@@ -7,13 +8,11 @@
     <th>Pasword</th>
     <th>Action</th>
   </tr>
-  <tr ng-repeat="girl in pagehome">
+  <tr ng-repeat="girl in girls">
     <td>{{girl.name}}</td>
     <td>{{girl.age}}</td>
     <td>{{girl.facebook}}</td>
     <td>{{girl.password}}</td>
-    <td><input type="button" class="btn btn-primary" value="Delete" ng-click="delete($index)"/>
-      <input type="button" value="Update"  class="btn btn-success"ng-click="gotoupdate($index)"/></td>
+    <td><input type="button" value="Delete" ng-click="delete($index)"><input type="button" value="Update" ng-click="update(girl, $index)"></td>
   </tr>
-</table>
-<button ng-repeat="n in allpages" class="btn btn-sm" ng-click="pagination($index)">{{$index+1}}</button>
+</table> -->

@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+  padding: 0px 0px 0px 0px;
+}
+.container{
+  padding-left: 30%;
+}
+.containeradd{
+  width:300px;
+  margin-left: 38%;
+}
+th,td{
+  height: 70px;
+  font-size:20px;
+  text-align: left;
+}
+h1{
+  text-align: center;
+}
+.button{
+  width:100px;
+  margin-top: 20px;
+}

@@ -1,7 +1,9 @@
-<h1 style="text-align:center;">update</h1>
-<div>Name: <input type="text" ng-model="girl.name"></div>
-<div>Age: <input type="number" ng-model="girl.age"></div>
-<div>Facebook: <input type="text" ng-model="girl.facebook"></div>
-<div>Password: <input type="text" ng-model="girl.password"></div>
-<input type="button" value="Add" ng-click="update()" class="btn btn-primary">
-<input type="button" value="Cancel" ng-click="cancel()" class="btn btn-success">
+<h1>Update</h1>
+<div class="containeradd">
+<div>Name: <input type="text" ng-model="girl.name" class="form-control"></div>
+<div>Age: <input type="number" ng-model="girl.age" class="form-control"></div>
+<div>Facebook: <input type="text" ng-model="girl.facebook" class="form-control"></div>
+<div>Password: <input type="text" ng-model="girl.password" class="form-control"></div>
+<button ng-click="update()" class="btn btn-primary button">Update</button>
+<button ng-click="cancel()" class="btn btn-default button">cancel</button>
+</div>
